@@ -361,7 +361,7 @@
     </div>
   
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
-<script>window.ZAPPY_WEBSITE_ID = "d11fab49-8e31-44e4-9f4a-2585d31d6f53";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "d11fab49-8e31-44e4-9f4a-2585d31d6f53";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -866,18 +866,18 @@
 </script>
   
   <main id="main">
-    <section class="experience-intro-section" data-layout-spec="ניסיון-intro">
+    <section class="experience-intro-section" data-layout-spec="ניסיון-intro" id="experience-intro-section">
     <div class="experience-intro-section__container">
         <!-- Header Block -->
         <header class="intro-header">
-            <h1 class="intro-header__title">החופשה השלמה שלך,<br>תחת קורת גג אחת</h1>
+            <h1 class="intro-header__title" style="">עסקים אטרקציות צימרים בצפון&nbsp;</h1>
             <p class="intro-header__subtitle">פסגת הנופש מחברת בין צימרים מפנקים, אטרקציות בלתי נשכחות ועסקים מקומיים מובחרים – כדי שתוכלו לתכנן את החוויה המושלמת בקלות ובסגנון.</p>
         </header>
 
-    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display: none !important;">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">מוצרים</a>
-        <div class="catalog-menu-categories" id="zappy-category-links">
+        <p class="zappy-editable"><a href="/products" class="catalog-menu-item catalog-menu-all">מוצרים</a>
+        </p><div class="catalog-menu-categories" id="zappy-category-links" dir="rtl" style="direction: rtl !important;">
           <!-- Categories will be loaded dynamically -->
         </div>
       </div>
@@ -888,21 +888,21 @@
         <div class="editorial-grid">
             <!-- Image Panel (Right side in RTL) -->
             <figure class="editorial-media">
-                <img loading="eager" fetchpriority="high" data-placeholder="experience-intro-image-1" data-context="A warm, sunlit boutique hotel veranda overlooking a Galilean mountain landscape, with olive trees and terracotta pots, capturing the essence of a luxury slow-travel vacation in Israel" width="600" height="400" src="/assets/site-experience-intro-image-1.webp" alt="מרפסת בוטיק המשקיפה אל נוף גלילי קסום">
+                <img loading="eager" fetchpriority="high" data-placeholder="experience-intro-image-1" data-context="A warm, sunlit boutique hotel veranda overlooking a Galilean mountain landscape, with olive trees and terracotta pots, capturing the essence of a luxury slow-travel vacation in Israel" width="600" height="400" src="/assets/site-experience-intro-image-1.webp" alt="מרפסת בוטיק המשקיפה אל נוף גלילי קסום" data-element-type="image" data-element-id="img-1782763186930-87v9uqq5g" style="">
                 <div class="editorial-media__accent" aria-hidden="true"></div>
             </figure>
 
             <!-- Text Content (Left side in RTL) -->
             <div class="editorial-text">
-                <div class="editorial-text__item">
+                <div class="editorial-text__item" data-grid-item-index="0">
                     <h3>לינה שהיא חוויה</h3>
                     <p>מבקתות רומנטיות עם בריכה פרטית ועד צימרים משפחתיים מרווחים בלב הטבע – אצלנו תמצאו את המקום המושלם לנוח בו. כל יחידת אירוח נבחרה בקפידה כדי להבטיח איכות, ניקיון ואווירה ייחודית.</p>
                 </div>
-                <div class="editorial-text__item">
+                <div class="editorial-text__item" data-grid-item-index="1">
                     <h3>לגלות את הסביבה</h3>
                     <p>בין אם אתם מחפשים טיול ג'יפים מאתגר, סדנת בישול מקומית או יום כיף במעיינות נסתרים – פורטל האטרקציות שלנו מרכז את כל מה שאסור לפספס. אנחנו דואגים שהזמן שלכם יהיה מלא ברגעים בלתי נשכחים.</p>
                 </div>
-                <div class="editorial-text__item">
+                <div class="editorial-text__item" data-grid-item-index="2">
                     <h3>הכול במקום אחד</h3>
                     <p>פסגת הנופש היא לא רק מדריך – היא שותף אמיתי לתכנון החופשה. אנחנו מחברים אתכם ישירות לעסקים המקומיים הטובים ביותר, ממסעדות שף ועד גלריות אמנות, כך שכל מה שאתם צריכים נמצא במרחק נגיעה.</p>
                 </div>
@@ -1213,7 +1213,7 @@
     <div class="footer-grid">
       <!-- Company Info -->
       <div class="footer-col footer-about-col">
-        <img src="/assets/tourism-hospitality-portal-logo.webp" alt="פסגת הנופש" class="logo" data-element-type="image" data-element-id="img-1782762885817-aacsa6rt3" data-zappy-footer-image="true" >
+        <img src="/assets/tourism-hospitality-portal-logo.webp" alt="פסגת הנופש" class="logo" data-element-type="image" data-element-id="img-1782762885817-aacsa6rt3" data-zappy-footer-image="true" style="">
         <p class="footer-tagline">פורטל התיירות והאירוח המוביל בישראל. אנחנו מחברים מטיילים לחוויות בלתי נשכחות, מקומות לינה קסומים ועסקים מקומיים ששווה להכיר.</p>
       </div>
 
