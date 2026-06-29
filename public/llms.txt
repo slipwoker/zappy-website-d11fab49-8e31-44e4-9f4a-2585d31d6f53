@@ -1,0 +1,88 @@
+# פסגת הנופש — Generative Engine Optimization Map
+
+> Psagat HaNofesh (Peak of Vacation) is a professional tourism portal that unifies vacation rentals (tzimmerim), local businesses, and tourist attractions under one roof. The platform serves as a comprehensive directory and booking hub for travelers seeking a complete vacation experience, combining accommodation, activities, and local services in a single destination website.
+
+---
+
+## Pages
+
+### בית
+https://-d11fab49.zappy5.app
+פורטל התיירות שמרכז עבורכם צימרים עם בריכה פרטית, אטרקציות ועסקים מקומיים במקום אחד. תכננו והזמינו את החופשה הבאה שלכם בקלות ובנוחות מרבית.
+
+### ניסיון
+https://-d11fab49.zappy5.app/experience
+היכנסו לנעלי המטיילים שכבר התאהבו: סיפורי חופשות מוצלחות, צימרים עם בריכה פרטית ואטרקציות בלתי נשכחות. הצטרפו לאלפים שחווים תיירות אחרת.
+
+### אודות
+https://-d11fab49.zappy5.app/about
+הכירו את החזון שמאחד צימרים, אטרקציות ועסקים מקומיים תחת קורת גג אחת. אנחנו מחויבים להפוך כל חופשה להרבה יותר מסתם נופש. בואו לגלות איך.
+
+### צור קשר
+https://-d11fab49.zappy5.app/contact
+צריכים עזרה במציאת צימר עם בריכה פרטית או אטרקציה שווה? השאירו פרטים ונחזור אליכם עם כל הטיפים וההמלצות לחופשה שתזכרו לנצח.
+
+### Products
+https://-d11fab49.zappy5.app/products
+המוצרים שלנו - פסגת הנופש
+
+### Product Detail
+https://-d11fab49.zappy5.app/product/:slug
+פרטי המוצר - פסגת הנופש
+
+### Category
+https://-d11fab49.zappy5.app/category/:slug
+מוצרים - פסגת הנופש
+
+### תודה שפניתם אלינו
+https://-d11fab49.zappy5.app/thank-you
+פסגת הנופש - תודה שפניתם אלינו
+
+## Legal & Policy
+
+### Privacy Policy
+https://-d11fab49.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://-d11fab49.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://-d11fab49.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About פסגת הנופש
+Psagat HaNofesh (Peak of Vacation) is a professional tourism portal that unifies vacation rentals (tzimmerim), local businesses, and tourist attractions under one roof. The platform serves as a comprehensive directory and booking hub for travelers seeking a complete vacation experience, combining accommodation, activities, and local services in a single destination website.
+
+## Services/Products
+- צימרים
+- עסקים מקומיים
+- אטרקציות
+
+## Target Audience
+- תיירים ומטיילים המחפשים צימרים, אטרקציות ועסקים מקומיים
+- מחפשי חופשות יוקרה
+
+## Industry
+Tourism & Hospitality Portal
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://-d11fab49.zappy5.app/sitemap.xml
+- Robots: https://-d11fab49.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://-d11fab49.zappy5.app/llms-full.txt
+- Products (JSON): https://-d11fab49.zappy5.app/products.json
+- Products (Google Merchant RSS): https://-d11fab49.zappy5.app/product-feed.xml
